@@ -60,11 +60,14 @@ body{
         flex-direction: column;
         justify-content: space-around;
     }
+    .form{
+        padding-left: 25%;
+    }
     .list__item{
         margin-bottom: 60px;
     }
     .list__nav{
-        padding-left: 40%;
+        padding-left: 30%;
         padding-top: 40px;
     }
     .header{
@@ -95,7 +98,7 @@ body{
 
 @media (max-width: 500px){
     .container{
-        width: 350px;
+        width: 400px;
     }
     .heading{
         font-size: 30px;
@@ -103,5 +106,18 @@ body{
     .list{
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .form{
+        padding-left: 15%;
+    }
+    .input{
+        padding: 10px 60px;
+    }
+    .button{
+        font-size: 20px;
+        padding: 10px 115px;
+    }
+    .list__nav{
+        padding-left: 15%;
     }
 }
