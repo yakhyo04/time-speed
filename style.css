@@ -98,7 +98,7 @@ body{
 
 @media (max-width: 500px){
     .container{
-        width: 400px;
+        width: 350px;
     }
     .heading{
         font-size: 30px;
@@ -115,9 +115,19 @@ body{
     }
     .button{
         font-size: 20px;
-        padding: 10px 115px;
+        padding: 10px 35px;
+        margin-left: 20%;
     }
     .list__nav{
-        padding-left: 15%;
+        padding-left: 25%;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .header__text{
+        font-size: 40px;
+    }
+    img{
+        margin-left: 0;
     }
 }
